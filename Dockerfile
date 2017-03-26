@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
   cmake \
   make \
   automake \
+  curl \
   python-setuptools \
   ninja-build \
   python-dev \
