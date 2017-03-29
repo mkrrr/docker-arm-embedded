@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
   python-dev \
   libffi-dev \
   libssl-dev \
+  a56 \
   libusb-1.0.0 \
   libusb-1.0.0-dev \
   software-properties-common \
