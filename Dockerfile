@@ -40,6 +40,9 @@ RUN easy_install pip && \
 # Pyserial for serial programming
 RUN pip install pyserial
 
+# Htmlmin for website minification
+RUN pip install htmlmin
+
 # STLink util
 RUN git clone https://github.com/texane/stlink.git && \
   cd stlink && mkdir build && cd build && \
